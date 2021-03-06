@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="lv">
+    <head>
+        <link rel="stylesheet" href="signup.css"
+        <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1"/>
+        <link rel="stylesheet" href="style.css">
+        <title>11Klasnieks</title>
+        <link rel="icon" href=".\vienpadsmit2.jpg" />
+        <script src="https://kit.fontawesome.com/ea5dfa5623.js" crossorigin="anonymous"></script>
+
+    </head>
+<body style="background-color:#F5E9E2">
+    <a class="gotopbtn" href="#"> <i class="fas fa-arrow-up"></i> </a>
+<!-- Start Header -->
+
+
+<table  style="border: ridge 6px #8C819E ; " border="0" width="50%" cellpadding="0" cellspacing="0" align="center" bgcolor="#8C819E">
+    <tr>
+        <td align="center" >
+                <strong style="color:black;
+                 font-size: 40px;
+                 font-style: Sriracha;
+                 padding: 0px;">
+                 11Klasnieks
+                 </strong>
+        </td>
+    </tr>
+</table>
+
+<!-- End Header -->
+
+<table style="border-bottom:  0px solid black;"  border='1' width="100%" cellpadding="0" cellspacing="0">
+    <tr align="center">
+        <td width="20%" bgcolor="#A695C3">
+            <a href="pirmaiskucens.html" style="text-decoration: none">
+                <font face="arial" color="black" size="3">
+                    <b>Sākums</b>
+                </font>
+            </a>
+        </td>
+
+        <td width="20%" bgcolor="#A695C3">
+                        <button onclick="document.getElementById('id00').style.display='block'"
+                        style="width:auto; font-family: Arial, Helvetica, sans-serif; font-size: 17px;" >
+                            <b>Ienākt</b>
+                        </button>
+
+            <div id="id00" class="modal">
+            
+                <form class="modal-content animate" action="action_page.php" method="post">
+                <div class="imgcontainer">
+                <span onclick="document.getElementById('id00').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <img src="vienpadsmit2.jpg" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                <label for="uname"><b>Lietotājvārds</b></label>
+                <input type="text" placeholder="Ievadi Lietotājvārdu" name="uname" required>
+
+                <label for="psw"><b>Parole</b></label>
+                <input type="password" placeholder="Ievadi paroli" name="psw" required>
+                    
+                <button type="submit" class="containerlogin">Ienākt</button>
+                <label>
+                    <br>
+                    <input type="checkbox" checked="checked" name="remember">Atcerēties mani
+                </label>
+                </div>
+
+                <div class="forgotpass" style="background-color:#f1f1f1">
+                <button type="button" onclick="document.getElementById('id00').style.display='none' "class="cancelbtn">Cancel</button>
+                <span class="psw">Aizmirsi <a href="#">paroli?</a></span>
+                </div>
+            </form>
+            </div>
+
+            <!--<script>
+            // Get the modal
+            var modal = document.getElementById('id00');
+
+            // When the user clicks anywhere outside of the modal, close it
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
+                }
+            }
+            </script>-->
+        </td>
+            
+            <td width="20%" bgcolor="#A695C3">
+                <button onclick="document.getElementById('id01').style.display='block'
+                 "style="width:auto; font-family: Arial, Helvetica, sans-serif; font-size: 17px;" >
+                    <b>Reģistrēties</b>
+                </button>
+
+            <div id="id01" class="modal1">
+
+                <form class="modal-content1 animate1" action="/action_page.php" method="post">
+                    <div class="imgcontainer1">
+                    <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                    <img src="vienpadsmit2.jpg" alt="Avatar" class="avatar1">
+                    </div>    
+
+                    <div class="container1">
+                    <p>Lai reģistrētos, ir jāaizpilda visi norādītie lauki!</p>
+                    <hr>
+                    <label for="email"><b>Lietotājvārds</b></label>
+                    <input type="text" placeholder="Ievadi lietotājvārdu" name="username" required>
+
+                    <label for="psw"><b>Parole</b></label>
+                    <input type="password" placeholder="Ievadi paroli" name="psw" required>
+
+                    <label for="psw-repeat"><b>Atkārtot paroli</b></label>
+                    <input type="password" placeholder="Atkārtot paroli" name="psw-repeat" required>
+                    
+                    <label>
+                        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px">
+                        Atcerēties mani
+                    </label>
+
+                    <p>By creating an account you agree to our <br> 
+                        <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+                    <div class="clearfix1">
+                        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn1">Cancel</button>
+                        <button type="submit" class="signupbtn1">Reģistrēties</button>
+                    </div>
+                    </div>
+                </form>
+                </div>
+
+                <!--<script>
+                // Get the modal
+                var modal1 = document.getElementById('id01');
+
+                // When the user clicks anywhere outside of the modal, close it
+                window.onclick = function(event) {
+                if (event.target == modal1) {
+                    modal1.style.display = "none";
+                    }
+                }
+                </script>-->
+            </td>
+       
+
+        
+        <td width="20%" bgcolor="#A695C3">
+            <a href="parmums.html" style="text-decoration: none">
+                <font face="arial" color="black" size="3">
+                    <b>Par mums</b>
+                </font>
+            </a>
+        </td>
+        
+        
+        <td width="20%" bgcolor="#A695C3">
+            <a href="kontakti.html" style="text-decoration: none">
+                <font face="arial" color="black" size="3">
+                    <b>Kontakti</b>
+                </font>
+            </a>
+        </td>
+
+    </tr>
+</table>
+    <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" height="0">
+        <tr>
+            <td width="16%" height="100" valign="top" class="long">
+                <div class="sticky">
+            <table border="0" cellpadding="12" cellspacing="0"> 
+                <tr>
+                    <td width="16%" style="border-bottom: 1px solid black;" width="16%" align="center" bgcolor="#7E7391"><a href="kimija.html" style="text-decoration: none">
+                        <font face="arial" color="black" size="3">
+                        <b>
+                    <div class="sticky">       
+                        Ķīmija
+                    </div>
+                        </b>
+                        </font>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <table border="0" cellpadding="12" cellspacing="0"> 
+                <tr>
+                    <td width="16%" style="border-bottom: 1px solid black;" width="16%" align="center" bgcolor="#A695C3">
+                        <a href="fizika.html" style="text-decoration: none">
+                        <font face="arial" color="black" size="3">
+                        <b>Fizika</b>
+                        </font>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <table style="border-bottom: 1px solid black;" border="0" cellpadding="12" cellspacing="0"> 
+                <tr>
+                    <td width="16%" align="center" bgcolor="#7E7391"><a href="biologija.html" style="text-decoration: none">
+                        <font face="arial" color="black" size="3">
+                        <b>Bioloģija</b>
+                        </font>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <table style="border-bottom: 1px solid black;" border="0" cellpadding="12" cellspacing="0">
+                <tr>
+                    <td width="16%" align="center" bgcolor="#A695C3"><a href="matematika.html" style="text-decoration: none">
+                        <font face="arial" color="black" size="3">
+                        <b>Matemātika</b>
+                        </font>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <table style="border-bottom: 1px solid black;" border="0" cellpadding="12" cellspacing="0">
+                <tr>
+                    <td width="16%" align="center" bgcolor="#7E7391"><a href="sports.html" style="text-decoration: none">
+                        <font face="arial" color="black" size="3">
+                        <b>Sports</b>
+                        </font>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <table style="border-bottom: 1px solid black;" border="0" cellpadding="12" cellspacing="0">
+                <tr>
+                    <td width="16%" align="center" bgcolor="#A695C3"><a href="geografija.html" style="text-decoration: none">
+                        <font face="arial" color="black" size="3">
+                        <b>Ģeogrāfija</b>
+                        </font>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <table style="border-bottom: 1px solid black;" border="0" cellpadding="12" cellspacing="0">
+                <tr>
+                    <td width="16%" align="center" bgcolor="#7E7391"><a href="angluval.html" style="text-decoration: none">
+                        <font face="arial" color="black" size="3">
+                        <b>Angļu valoda</b>
+                        </font>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <table style="border-bottom: 1px solid black;" border="0" cellpadding="12" cellspacing="0">
+                <tr>
+                    <td width="16%" align="center" bgcolor="#A695C3"><a href="latviesuval.html" style="text-decoration: none">
+                        <font face="arial" color="black" size="3">
+                        <b>Latviešu valoda</b>
+                        </font>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <table style="border-bottom: 1px solid black;" border="0" cellpadding="12" cellspacing="0">
+                <tr>
+                    <td width="16%" align="center" bgcolor="#7E7391"><a href="vesture.html" style="text-decoration: none">
+                        <font face="arial" color="black" size="3">
+                        <b>Vēsture</b>
+                        </font>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <table style="border-bottom: 1px solid black;" border="0" cellpadding="12" cellspacing="0">
+                <tr>
+                    <td width="16%" align="center" bgcolor="#A695C3"><a href="literatura.html" style="text-decoration: none">
+                        <font face="arial" color="black" size="3">
+                        <b>Literatūra</b>
+                        </font>
+                        </a>
+                    </td>
+                </tr>                       
+            </table>
+            <table border="0" cellpadding="12" cellspacing="0"> 
+                <tr>
+                    <td width="16%" style="border-bottom: 1px solid black;" width="16%" align="center" bgcolor="#7E7391">
+                        <a href="krievuval.html" style="text-decoration: none">
+                        <font face="arial" color="black" size="3">
+                        <b>Krievu valoda</b>
+                        </font>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <table border="0" cellpadding="12" cellspacing="0"> 
+                <tr>
+                    <td width="16%" style="border-bottom: 1px solid black;" width="16%" align="center" bgcolor="#A695C3">
+                        <a href="programmesana.html" style="text-decoration: none">
+                        <font face="arial" color="black" size="3">
+                        <b>Programmēšana</b>
+                        </font>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <table border="0" cellpadding="12" cellspacing="0"> 
+                <tr>
+                    <td width="16%" style="border-bottom: 1px solid black;" width="16%" align="center" bgcolor="#7E7391">
+                        <a href="ekonomika.html" style="text-decoration: none">
+                        <font face="arial" color="black" size="3">
+                        <b>Ekonomika</b>
+                        </font>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+            <table border="0" cellpadding="12" cellspacing="0"> 
+                <tr>
+                    <td width="16%" style="border-bottom: 1px solid black;" width="16%" align="center" bgcolor="#A695C3">
+                        <a href="kulturologija.html" style="text-decoration: none">
+                        <font face="arial" color="black" size="3">
+                        <b>Kulturoloģija</b>
+                        </font>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </td>
+    </th>
+
+        <td width="84%" valign="top">
+            <button onclick="typeWriter()" class="buttondes">Uzspied</button>
+
+<p id="demo"></p>
+
+<script>
+var i = 0;
+var txt = 'Sveiks 11.klases skolēn, šī mājaslapa ir izveidota, lai palīdzētu tev apgūt labāk visu, kas tev ir nepieciešams zināt skolā.';
+var speed = 50;
+
+function typeWriter() {
+  if (i < txt.length) {
+    document.getElementById("demo").innerHTML += txt.charAt(i);
+    i++;
+    setTimeout(typeWriter, speed);
+  }
+}
+</script>
+
+            <!--<p align="center"
+            class='p1'  
+            style="color:black;
+            font-size: 38px;
+            padding-top: 0px;
+            word-spacing: 0px;">Sveiks 11.klases skolēn, šī mājaslapa ir izveidota, lai palīdzētu tev apgūt labāk visu, kas tev ir nepieciešams zināt skolā.
+            </p>-->
+            <br/>
+            <p align="center"
+            class='p1'  
+            style="color:black;
+            font-size: 38px;
+            padding-top: 0px;
+            word-spacing: 0px;">
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaddddddddddd
+                <br>ddddddddddddddddddddddddddddddddddddddddd
+                <br>ddddddddddddddddddddwwwwwwwwwwwwwwww
+                <br>wwwwwwwwwwwwwddddnnnnnnnnnnnnnnnna
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaddddddddddd
+                <br>ddddddddddddddddddddddddddddddddddddddddd
+                <br>ddddddddddddddddddddwwwwwwwwwwwwwwww
+                <br>wwwwwwwwwwwwwddddnnnnnnnnnnnnnnnna
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaddddddddddd
+                <br>ddddddddddddddddddddddddddddddddddddddddd
+                <br>ddddddddddddddddddddwwwwwwwwwwwwwwww
+                <br>wwwwwwwwwwwwwddddnnnnnnnnnnnnnnnna
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaddddddddddd
+                <br>ddddddddddddddddddddddddddddddddddddddddd
+                <br>ddddddddddddddddddddwwwwwwwwwwwwwwww
+                <br>wwwwwwwwwwwwwddddnnnnnnnnnnnnnnnna
+                <br>ddddddddddddddddddddddddddddddddddddddddd
+                <br>ddddddddddddddddddddwwwwwwwwwwwwwwww
+                <br>wwwwwwwwwwwwwddddnnnnnnnnnnnnnnnna
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaddddddddddd
+                <br>ddddddddddddddddddddddddddddddddddddddddd
+                <br>ddddddddddddddddddddwwwwwwwwwwwwwwww
+                <br>wwwwwwwwwwwwwddddnnnnnnnnnnnnnnnna
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaddddddddddd
+                <br>ddddddddddddddddddddddddddddddddddddddddd
+                <br>ddddddddddddddddddddwwwwwwwwwwwwwwww
+                <br>wwwwwwwwwwwwwddddnnnnnnnnnnnnnnnna
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaddddddddddd
+                <br>ddddddddddddddddddddddddddddddddddddddddd
+                <br>ddddddddddddddddddddwwwwwwwwwwwwwwww
+                <br>wwwwwwwwwwwwwddddnnnnnnnnnnnnnnnna
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaddddddddddd
+                <br>ddddddddddddddddddddddddddddddddddddddddd
+                <br>ddddddddddddddddddddwwwwwwwwwwwwwwww
+                <br>wwwwwwwwwwwwwddddnnnnnnnnnnnnnnnna
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaddddddddddd
+                <br>ddddddddddddddddddddddddddddddddddddddddd
+                <br>ddddddddddddddddddddwwwwwwwwwwwwwwww
+                <br>wwwwwwwwwwwwwddddnnnnnnnnnnnnnnnna
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaddddddddddd
+                <br>ddddddddddddddddddddddddddddddddddddddddd
+                <br>ddddddddddddddddddddwwwwwwwwwwwwwwww
+                <br>wwwwwwwwwwwwwddddnnnnnnnnnnnnnnnna
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaddddddddddd
+                <br>ddddddddddddddddddddddddddddddddddddddddd
+                <br>ddddddddddddddddddddwwwwwwwwwwwwwwww
+                <br>wwwwwwwwwwwwwddddnnnnnnnnnnnnnnnna
+                <br>ddddddddddddddddddddddddddddddddddddddddd
+                <br>ddddddddddddddddddddwwwwwwwwwwwwwwww
+                <br>wwwwwwwwwwwwwddddnnnnnnnnnnnnnnnna
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaddddddddddd
+                <br>ddddddddddddddddddddddddddddddddddddddddd
+                <br>ddddddddddddddddddddwwwwwwwwwwwwwwww
+                <br>wwwwwwwwwwwwwddddnnnnnnnnnnnnnnnna
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaddddddddddd
+                <br>ddddddddddddddddddddddddddddddddddddddddd
+                <br>ddddddddddddddddddddwwwwwwwwwwwwwwww
+                <br>wwwwwwwwwwwwwddddnnnnnnnnnnnnnnnna
+                aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaddddddddddd
+                <br>ddddddddddddddddddddddddddddddddddddddddd
+                <br>ddddddddddddddddddddwwwwwwwwwwwwwwww
+                <br>wwwwwwwwwwwwwddddn
+            </p>
+        </td>
+    </tr>
+</table>
+
+
+
+
+
+
+</body>
+
+
+
+</html>
